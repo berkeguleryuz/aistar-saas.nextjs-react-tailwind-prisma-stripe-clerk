@@ -19,7 +19,7 @@ export const checkSubscription = async () => {
       stripeSubscriptionId: true,
       stripeCurrentPeriodEnd: true,
       stripeCustomerId: true,
-      stripePriceId: true,
+      stripePriceId: true, 
     },
   });
 
